@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="School.css">
+</head>
+<body>
+ <div class="header">
+ 	<h2> SCHOOL FEES PAYMENTS</h2>
+ </div>
+
+<form method="POST" action="HH.PHP">
+	<div class="input-group">
+		<label>Student name</label>
+		<input type="text" name="username">
+	</div>
+	<div class="input-group">
+		<label>School name</label>
+		<input type="text" name="email">
+	</div>
+	<div class="">
+		<label>Location</label><br>
+		<select name="home" >
+			<optgroup label="SOUTH">
+				<option>nyamagabe</option>
+				<option>nyaruguru</option>
+				<option>huye</option>
+				<option>gisagara</option>
+				<option>kamonyi</option>
+				<option>ruhango</option>
+				<option>nyanza</option>
+				<option>muhanga</option>
+			</optgroup>
+			<optgroup label="NORTH">
+				<option>musanze</option>
+				<option>burera</option>
+				<option>gicumbi</option>
+				<option>gakenke</option>
+				<option>rulindo</option>
+			</optgroup>
+			<optgroup label="EAST">
+				<option>nyagatare</option>
+				<option>gatsibo</option>
+				<option>kayonza</option>
+				<option>rwamagana</option>
+				<option>ngoma</option>
+				<option>kirehe</option>
+				<option>bugesera</option>
+			</optgroup>
+			<optgroup label="WEST">
+				<option>rubavu</option>
+				<option>nyabihu</option>
+				<option>ngororero</option>
+				<option>karongi</option>
+				<option>rutsibo</option>
+				<option>nyamasheke</option>
+				<option>rusizi</option>
+			</optgroup>
+			<optgroup label="KIGALI CITY">
+				<option>nyarugenge</option>
+				<option>kicukiro</option>
+				<option>gasabo</option>
+			</optgroup>
+	</div>
+	<div class="input-group">
+		<label>confirm password</label>
+		<input type="radio" name="confirm password" style="width: 1px;height: 1px;">
+	</div><br>
+    <div class="input-group">
+		<button type="submit" name="Register" class="btn" style="cursor: pointer;">SEND</button>
+	</div>
+	<center><button><a href="index.html">return to home</a></button></center>
+</form>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="death.css">
+</head>
+<body>
+ <div class="header">
+ 	<h2> DEATH REGISTER</h2>
+ </div>
+
+<form method="POST" action="HH.PHP">
+	<div class="input-group">
+		<label>NameS</label>
+		<input type="text" name="username">
+	</div>
+	<div class="input-group">
+		<label>Date of birth</label>
+		<input type="date" name="username">
+	</div>
+	<div class="input-group">
+		<label>Age</label>
+		<input type="number" name="number">
+	</div>
+	<div class="">
+		<label>Location</label><br>
+		<select name="home" >
+			<optgroup label="SOUTH">
+				<option>nyamagabe</option>
+				<option>nyaruguru</option>
+				<option>huye</option>
+				<option>gisagara</option>
+				<option>kamonyi</option>
+				<option>ruhango</option>
+				<option>nyanza</option>
+				<option>muhanga</option>
+			</optgroup>
+			<optgroup label="NORTH">
+				<option>musanze</option>
+				<option>burera</option>
+				<option>gicumbi</option>
+				<option>gakenke</option>
+				<option>rulindo</option>
+			</optgroup>
+			<optgroup label="EAST">
+				<option>nyagatare</option>
+				<option>gatsibo</option>
+				<option>kayonza</option>
+				<option>rwamagana</option>
+				<option>ngoma</option>
+				<option>kirehe</option>
+				<option>bugesera</option>
+			</optgroup>
+			<optgroup label="WEST">
+				<option>rubavu</option>
+				<option>nyabihu</option>
+				<option>ngororero</option>
+				<option>karongi</option>
+				<option>rutsibo</option>
+				<option>nyamasheke</option>
+				<option>rusizi</option>
+			</optgroup>
+			<optgroup label="KIGALI CITY">
+				<option>nyarugenge</option>
+				<option>kicukiro</option>
+				<option>gasabo</option>
+			</optgroup>
+	</div>
+	<div class="input-group">
+		<label>Sex</label>
+	</div>
+	<div class="input-group">
+		<label>confirm password</label>
+		<input type="radio" name="confirm password" style="width: 1px;height: 2px;">
+	</div><br>
+	<div>
+		<p>sex</p>
+		F<input type="radio" name="">M<input type="radio" name="">
+	</div>
+	<div class="input-group">
+		<a href="index.html"><div style="width: 70px; height: 20px; background-color: red;text-decoration: none;list-style: none;border: 2px;" class="btn">REGISTER</div></a>
+	</div>
+	<center><button><a href="index.html">return to home</a></button></center>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="birth.css">
+</head>
+<body>
+ <div class="header">
+ 	<h2> BIRTH REGISTER</h2>
+ </div>
+
+<form method="POST" action="HH.PHP">
+	<div class="input-group">
+		<label>First Name</label>
+		<input type="text" name="username">
+	</div>
+	<div class="input-group">
+		<label>Last Name</label>
+		<input type="text" name="username">
+	</div>
+	<div class="input-group">
+		<label>Date of birth</label>
+		<input type="Date" name="email">
+	</div>
+	<div class="">
+		<label>Location</label><br>
+		<select name="home" >
+			<optgroup label="SOUTH">
+				<option>nyamagabe</option>
+				<option>nyaruguru</option>
+				<option>huye</option>
+				<option>gisagara</option>
+				<option>kamonyi</option>
+				<option>ruhango</option>
+				<option>nyanza</option>
+				<option>muhanga</option>
+			</optgroup>
+			<optgroup label="NORTH">
+				<option>musanze</option>
+				<option>burera</option>
+				<option>gicumbi</option>
+				<option>gakenke</option>
+				<option>rulindo</option>
+			</optgroup>
+			<optgroup label="EAST">
+				<option>nyagatare</option>
+				<option>gatsibo</option>
+				<option>kayonza</option>
+				<option>rwamagana</option>
+				<option>ngoma</option>
+				<option>kirehe</option>
+				<option>bugesera</option>
+			</optgroup>
+			<optgroup label="WEST">
+				<option>rubavu</option>
+				<option>nyabihu</option>
+				<option>ngororero</option>
+				<option>karongi</option>
+				<option>rutsibo</option>
+				<option>nyamasheke</option>
+				<option>rusizi</option>
+			</optgroup>
+			<optgroup label="KIGALI CITY">
+				<option>nyarugenge</option>
+				<option>kicukiro</option>
+				<option>gasabo</option>
+			</optgroup>
+	</div>
+	<div class="input-group">
+		
+		<input type="radio" name="confirm pass5word"  style="width: 1px;height: 1px;">
+	</div>
+		<div class="input-group">
+		
+		Female<input type="radio" name="confirm password" style="width: 20%;height: 20%;">
+		Male<input type="radio" name="confirm password"  style="width: 20%;height: 20%;">
+	</div>
+    <div class="input-group">
+		<button type="submit" name="Register" class="btn">Register</button>
+	</div>
+	<center><button><a href="index.html">return to home</a></button></center>
+</form>
+
+</body>
+</html>
